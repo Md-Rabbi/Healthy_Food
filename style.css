@@ -173,7 +173,9 @@ body{
     color: rgb(85, 85, 85);
 }
 .more_button{
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 .QNA{
     background-image: url(img/Q&A_bg.jpg);
@@ -196,6 +198,7 @@ body{
     font-size: 22px;
     color: rgb(255, 255, 255);
     margin-bottom: -42px;
+    font-weight: 700;
 }
 .qna_body{
     width: 24%;
@@ -233,6 +236,9 @@ body{
     background-color: rgb(248, 151, 5);
     border-radius: 10px;
     text-align: center;
+    font-weight: 600;
+    letter-spacing: .5px;
+    box-shadow: 6px 8px 16px #969696;
 }
 .subscribe_container{
     width: 90%;
@@ -251,6 +257,8 @@ body{
     text-align: center;
     padding: 5px 10px;
     border-top: 5px solid rgb(248, 151, 5);
+    font-weight: 700;
+    word-spacing: 4px;
 }
 .subscribe_container h2{
     color: white;
@@ -275,6 +283,7 @@ body{
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+    letter-spacing: .5px;
 }
 .subscribe_container p{
     color: white;
@@ -299,12 +308,12 @@ body{
 .Healthy_food_footer h1 span{
     color: rgb(248, 151, 5);
 }
-.Heathy_food_footer h3{
+.Healthy_food_footer h3{
     font-size: 18px;
     font-weight: 400;
     color: rgb(214, 214, 214);
 }
-.Heathy_food_footer p{
+.Healthy_food_footer p{
     font-size: 12px;
     margin-top: 70px;
     color: white;
