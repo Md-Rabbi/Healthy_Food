@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top_header{
+    width: 100%;
+    background-color: rgb(45, 48, 60);
+    height: 100px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 125px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: -15px;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+   width: 670px;
+   margin-left: 11%;
+}
+.nav ul{
+    margin: 30px 0;
+    width: 75%;
+}
+.nav ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(241, 115, 25);
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sign_up{
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 6%;
+}
+.sign_up_button{
+    width: 50px;
+    background-color: rgb(221, 88, 0);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 52px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.sign_up p,a{
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(221, 133, 0);
+    text-decoration: none;
+}
+.main_body{
+    display: flex;
+    height: 570px;
+    margin-bottom: 50px;
+}
+.main_desc{
+    width: 45%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.main_desc span{
+    color: rgb(221, 133, 0);
+}
+.main_desc h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+.main_desc p{
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 50px;
+}
+.link_button{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right, rgb(241, 154, 54), rgb(219, 100, 2));
+    border-radius: 45px;
+    box-shadow: 7px 11px 30px #717171;
+}
+.main_img{
+    width: 45%;
+    margin-left: 10%;
+    margin-top: -20px;
+}
+.main_img img{
+    width: 90%;
+}
+.about_us{
+    display: flex;
+    background-image: url(img/about_us-bg.png);
+    height: 480px;
+    margin-bottom: 60px;
+}
+.about_us_img{
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+}
+.about_us_img img{
+    width: 56%;
+}
+.about_us_desc{
+    width: 45%;
+    margin-left: 5%;
+    padding: 5%;
+}
+.about_us_desc h1{
+    font-size: 45px;
+    color:rgb(43, 43, 43);
+}
+.about_us_desc p{
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.my_recipe{
+    margin-bottom: 90px;
+}
+.my_recipe_intro{
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+}
+.my_recipe_intro h1{
+    font-size: 45px;
+    color:rgb(43, 43, 43);
+    text-decoration: underline;
+}
+.my_recipe_intro p{
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 50px;
+}
+.my_recipe_item{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 450px;
+}
+.recipe{
+    width: 22%;
+    margin-left: 5%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2.3% 2.3%;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgb(80, 80, 80);
+}
+.recipe img{
+    width: 100%;
+    border-radius: 10px;
+}
+.my_recipe h1{
+    color:rgb(43, 43, 43);
+}
+.my_recipe p{
+    color: rgb(85, 85, 85);
+}
+.more_button{
+    font-weight: 700;
+}
+.QNA{
+    background-image: url(img/Q&A_bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.qna_container{
+    margin-bottom: 60px;
+    display: flex;
+}
+.qna_head{
+    width: 50px;
+    padding: 2px 5px;
+    background-color: rgb(248, 101, 3) ;
+    border-top: 5px solid rgb(248, 151, 5);
+    margin-left: 90px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: -42px;
+}
+.qna_body{
+    width: 24%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4%;
+    margin-top: 3.7%;
+    border-radius: 10px;
+    padding: 2% 2%;
+    text-align: center;
+}
+.qna_body span{
+    color: rgb(221, 133, 0);
+    font-size: 28px;
+}
+.qna_body h1{
+    color: rgb(43, 43, 43);
+    margin-bottom: 20px;
+    height: 100px;
+    font-size: 22px;
+    margin-top: -20px;
+}
+.qna_body p{
+    text-align: justify;
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+    height: 180px;
+}
+.qna_button{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    padding: 10px 20px;
+    background-color: rgb(248, 151, 5);
+    border-radius: 10px;
+    text-align: center;
+}
+.subscribe_container{
+    width: 90%;
+    margin: 0px auto;
+    background-image: url(img/bg_1.jpg);
+    height: 300px;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.subscribe_head{
+    margin-left: 4%;
+    width: 370px;
+    color: white;
+    background-color: rgb(248, 101, 3);
+    text-align: center;
+    padding: 5px 10px;
+    border-top: 5px solid rgb(248, 151, 5);
+}
+.subscribe_container h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-top: 50px;
+}
+.input_mail{
+    width: 300px;
+    padding: 12px 50px;
+    margin-left: 4%;
+    border-radius: 5px;
+    border: 0px;
+}
+.subscribe_container a{
+    width: 50px;
+    background-color: rgb(248, 151, 5);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.subscribe_container p{
+    color: white;
+    margin-left: 4%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.subscribe_container p span{
+    color: rgb(248, 151, 5);
+}
+.Heathy_food_footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(45, 48, 60);
+    text-align: center;
+}
+.Heathy_food_footer h1{
+    word-spacing: 10px;
+    color: rgb(199, 199, 199);
+    font-size: 38px;
+}
+.Heathy_food_footer h1 span{
+    color: rgb(248, 151, 5);
+}
+.Heathy_food_footer h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(214, 214, 214);
+}
+.Heathy_food_footer p{
+    font-size: 12px;
+    margin-top: 70px;
+    color: white;
+}
