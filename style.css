@@ -70,7 +70,7 @@ body{
     margin-top: 5%;
 }
 .main_desc span{
-    color: rgb(221, 133, 0);
+    color: rgb(255, 123, 0);
 }
 .main_desc h1{
     font-size: 45px;
@@ -285,18 +285,18 @@ body{
 .subscribe_container p span{
     color: rgb(248, 151, 5);
 }
-.Heathy_food_footer{
+.Healthy_food_footer{
     width: 100%;
     height: 200px;
     background-color: rgb(45, 48, 60);
     text-align: center;
 }
-.Heathy_food_footer h1{
+.Healthy_food_footer h1{
     word-spacing: 10px;
     color: rgb(199, 199, 199);
     font-size: 38px;
 }
-.Heathy_food_footer h1 span{
+.Healthy_food_footer h1 span{
     color: rgb(248, 151, 5);
 }
 .Heathy_food_footer h3{
